@@ -1,0 +1,14 @@
+.input {
+    border-image-source: linear-gradient(to right, #00F5FB, #DC04CB);
+    border-width: 2px;
+    border-image-slice: 1;
+  }
+  
+  .input:focus, .input:active {
+    outline: none; /* remove the default focus/active outline */
+    outline-color: white; /* set the outline color to white */
+    border-image-source: linear-gradient(to right, #00F5FB, #DC04CB);
+    border-width: 2px;
+    border-image-slice: 1;
+  }
+  
