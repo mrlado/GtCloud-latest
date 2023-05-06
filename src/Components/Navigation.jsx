@@ -6,6 +6,9 @@ import Phoneimg from '../Assets/Mobile/Path 329.png'
 import EmailLogo from '../Assets/Mobile/Group 316.png'
 import { IoIosArrowForward, IoIosArrowDown } from 'react-icons/io';
 import { Link } from "react-router-dom";
+import { motion as m, animate } from "framer-motion"
+
+
 
 const Navigation = () => {
 const [productsShow,setProductsShow] = useState(false)
@@ -38,7 +41,13 @@ useEffect(() => {
             <img src={Logo} alt="" />
             </Link>
         </div>
-        <ul className='flex gap-7 items-center relative md:hidden md:gap-5'>
+        <m.ul  
+        initial={{ x:1000 }} 
+        whileInView={{ opacity: 1 }} 
+        transition={{duration:2,ease:'easeOut'}}
+        animate ={{x:0}}
+        className='flex gap-7 items-center relative md:hidden md:gap-5'
+         >
             <li className='cursor-pointer text-base font-normal'><Link to='/' >Home</Link></li>
             <li className='cursor-pointer'>Vendors</li>
             <li className='cursor-pointer ' ref={ProductsNavRef}><span className='flex items-center' onClick={()=>{setProductsShow(!productsShow)}}> Products {productsShow ? <IoIosArrowDown/>  : <IoIosArrowForward/>}</span>
@@ -66,7 +75,7 @@ useEffect(() => {
             <li className='cursor-pointer'>Partners</li>
             <li className='cursor-pointer'>About us</li>
             <li className='cursor-pointer'><Link to='ContactPage'>Contact</Link></li>
-        </ul>
+        </m.ul>
         <div className="MobileNavigation hidden md:block">
                 <div className="humburgerLogo relative z-[10]" >
                 {!humburgernav ?  

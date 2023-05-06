@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import ContactPageImge from '../Assets/Pagescreens/ContactPage.png'
 import './ContactPage.css'
-
+import { Loadingcontext } from '../Context/LoadingProvider'
+import LoadingPage from '../Context/LoadingPage'
 
 const ContactPage = () => {
+    const {Loading,setLoading} = useContext(Loadingcontext)
+
+    useEffect(()=>{
+          setLoading(true)
+      setTimeout(()=>{
+        setLoading(false)
+      },1700)
+  
+    },[])
   return (
     <div>
+        {Loading === true && <LoadingPage/> }
             <div className="hero w-full h-full flex justify-center items-center pl-[140px] sm:pl-0">
     <div className=' w-full h-full rounded-[40px] flex justify-center items-center pt-16 gap-12 ' style={{background:'linear-gradient(to right, #EEEBEB, white)'}} >
             <div className="mt-[40px] object-contain ">

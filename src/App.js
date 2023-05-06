@@ -16,16 +16,20 @@ import ManagedServicesimg from './Assets/Pagescreens/ManagedServices.png'
 import ManagedServices from './Screens/ManagedServices';
 import ContactPage from './Screens/ContactPage';
 
+
 function App() {
+
   return (
     <div className="App">
+
       <BrowserRouter>
+      
     <Navigation/>
     <Routes>
 
 
     <Route path="/" element={<Layout/>}/>
-
+    
     <Route path='/ITInfrustructure' element={
     <ScreenLayout 
         HeroTitle='IT Infrustructure' 
@@ -122,10 +126,10 @@ function App() {
 
 
 
-
       </Routes>
       <Footer/>
       </BrowserRouter>
+
     </div>
   );
 }
