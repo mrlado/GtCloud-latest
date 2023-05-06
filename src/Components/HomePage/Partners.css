@@ -1,0 +1,13 @@
+.Slider_Item{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 200px;
+}
+.Carouselcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+}

@@ -32,8 +32,8 @@ function App() {
     
     <Route path='/ITInfrustructure' element={
     <ScreenLayout 
-        HeroTitle='IT Infrustructure' 
-        HeroText='IT infrastructure allows organizations to constantly provide their employees, partners and customers with IT solutions, assistance and services.' 
+        HeroTitle='IT Infrastructure' 
+        HeroText='IT Infrastructure allows organizations to constantly provide their employees, partners and customers with IT solutions, assistance and services.' 
         HeroImg={ITInfrustructureImg} 
         DescriptionTitle='Our portfolio thoroughly includes'
         textone='Basic IT infrastructure - servers, high-performance computing systems, storage arrays, backup and archiving systems.'

@@ -10,6 +10,7 @@ import Partners from './Components/HomePage/Partners/Partners'
 import Footer from './Components/Footer'
 import { Loadingcontext } from './Context/LoadingProvider'
 import LoadingPage from './Context/LoadingPage'
+import Slick_Partners from './Components/HomePage/Slick_Partners'
 
 
 export const Layout = () => {
@@ -39,7 +40,8 @@ const {Loading,setLoading} = useContext(Loadingcontext)
         <Divider/>
         <Acardion/>
         <Vendors/>
-        <Partners/>
+        {/* <Partners/> */}
+        <Slick_Partners/>
         
     </div>
   )

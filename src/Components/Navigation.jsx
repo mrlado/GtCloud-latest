@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Logo from '../Assets/Logo Png Black.png'
+import Logo from '../Assets/Logo.png'
 import HumburgerLogo from '../Assets/Mobile/Burger.png';
 import HumburgetCloseLogo from '../Assets/Mobile/BurgX.png'
 import Phoneimg from '../Assets/Mobile/Path 329.png'
@@ -38,7 +38,7 @@ useEffect(() => {
     <div className='flex justify-around mt-4 items-center w-full absolute top-0'>
         <div>
             <Link to="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="Logo" style={{height:'39px'}} />
             </Link>
         </div>
         <m.ul  
@@ -53,10 +53,10 @@ useEffect(() => {
             <li className='cursor-pointer ' ref={ProductsNavRef}><span className='flex items-center' onClick={()=>{setProductsShow(!productsShow)}}> Products {productsShow ? <IoIosArrowDown/>  : <IoIosArrowForward/>}</span>
                 <ul className={`absolute left-[140px] p-4 bg-[#F2F2F2] rounded-md ${!productsShow && 'hidden'}`}>
                     <li className='text-sx text-[#939393]'onClick={()=>{setProductsShow(false)}}>
-                        <Link to='/ITInfrustructure' >IT Infrustructure</Link>
+                        <Link to='/ITInfrustructure' >IT Infrastructure</Link>
                         </li>
                     <li className='text-sx text-[#939393]' onClick={()=>{setProductsShow(false)}}>
-                        <Link to='/NetworkInfrastructure'>Network Infrustructure</Link>
+                        <Link to='/NetworkInfrastructure'>Network Infrastructure</Link>
                         </li>
                     <li className='text-sx text-[#939393]' onClick={()=>{setProductsShow(false)}}>
                         <Link to='/CyberSecurity'>Cyber Security</Link>
@@ -95,8 +95,8 @@ useEffect(() => {
                     <li className='cursor-pointer'><span className='flex items-center' onClick={()=>{setProductsShow(!productsShow)}}> Products {productsShow ? <IoIosArrowDown/>  : <IoIosArrowForward/>}</span></li>
                     
                 {productsShow && <ul className='mr-[50px] w-[150px] flex flex-col gap-2 -mt-4'>
-                                <li className='text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/ITInfrustructure'>IT Infrustructure</Link></li>
-                                <li className='text-sx text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/NetworkInfrastructure'>Network Infrustructure</Link></li>
+                                <li className='text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/ITInfrustructure'>IT Infrastructure</Link></li>
+                                <li className='text-sx text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/NetworkInfrastructure'>Network Infrastructure</Link></li>
                                 <li className='text-sx text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/CyberSecurity'>Cyber Security</Link></li>
                                 <li className='text-sx text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/ManagedSecurityServices'>Managed Security Service</Link></li>
                                 <li className='text-sx text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/ManagedServices'>Managed Services</Link></li>

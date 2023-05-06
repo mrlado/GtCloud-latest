@@ -53,7 +53,7 @@ const Acardion = () => {
                         
                 </div>
                 {divideropen.three ===true  && 
-                        <h1 className='sm:text-xs text-[#939393] my-4'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
+                        <h1 className='sm:text-xs text-[#939393] my-4 px-16'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
 
                         We help businesses reshape and redefine relationships with customers, employees, and partners. Digital transformation encompasses everything from revitalizing applications and devising new business models to creating novel products and services for customers.
                         
@@ -69,7 +69,7 @@ const Acardion = () => {
                         
                 </div>
                 {divideropen.for ===true  && 
-                        <h1 className='sm:text-xs text-[#939393] my-4'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
+                        <h1 className='sm:text-xs text-[#939393] my-4 px-16'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
 
                         We help businesses reshape and redefine relationships with customers, employees, and partners. Digital transformation encompasses everything from revitalizing applications and devising new business models to creating novel products and services for customers.
                         
@@ -85,7 +85,7 @@ const Acardion = () => {
                         
                 </div>
                 {divideropen.five ===true  && 
-                        <h1 className='sm:text-xs text-[#939393] my-4'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
+                        <h1 className='sm:text-xs text-[#939393] my-4 px-16'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
 
                         We help businesses reshape and redefine relationships with customers, employees, and partners. Digital transformation encompasses everything from revitalizing applications and devising new business models to creating novel products and services for customers.
                         
@@ -101,7 +101,7 @@ const Acardion = () => {
                         
                 </div>
                 {divideropen.six ===true  && 
-                        <h1 className='sm:text-xs text-[#939393] my-4'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
+                        <h1 className='sm:text-xs text-[#939393] my-4 px-16'>Digital transformation leverages state-of-the-art digital technologies, encompassing public, private, and hybrid cloud platforms, to innovate or adapt business processes, culture, and customer experiences in response to evolving business and market dynamics.
 
                         We help businesses reshape and redefine relationships with customers, employees, and partners. Digital transformation encompasses everything from revitalizing applications and devising new business models to creating novel products and services for customers.
                         

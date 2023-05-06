@@ -19,8 +19,8 @@ const icon = {
 
 const LoadingPage = () => {
   return (
-    <div className="containerr">
-        <div className='m-auto h-[400px] w-[650px] flex justify-center items-center bg-gradient-to-r from-[#00F5FB] to-[#DC04CB] rounded-[150px]'>
+    <div className="containerr md:w-full h-full">
+        <div className='m-auto h-[400px] w-[650px] flex justify-center items-center bg-gradient-to-r from-[#00F5FB] to-[#DC04CB] rounded-[150px] md:w-[300px] md:h-[200px]'>
     <m.svg className="Loadingitem" width="700pt" height="700pt" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" >
 
   <m.path         variants={icon}
@@ -33,7 +33,7 @@ const LoadingPage = () => {
   
 
     </m.svg>
-    <h1 className='text-[white] absolute top-[63vh] left-[50%] text-4xl'>GTCLOUD
+    <h1 className='text-[white] absolute top-[63vh] left-[50%] text-4xl md:text-base md:top-[59vh] md:left-[39%]'>GTCLOUD
     </h1>
     </div>
   </div>

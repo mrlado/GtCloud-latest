@@ -30,12 +30,12 @@ const ContactPage = () => {
 
     <div className='flex max-w-[80%] justify-center gap-9 items-center m-auto mt-10 flex-wrap'>
         <div className="lInputs w-[50%] flex flex-col flex-1 gap-9">
-        <input type="text" placeholder="Name" className='input p-2' autoComplete='false'/>
+        <input type="text" placeholder="Name" className='input p-2' autoComplete={false}/>
             <input type="text" placeholder='Surname ' className='input p-2' autoComplete='false'/>
         </div>
         <div className="rightInputs w-[50%] flex flex-col flex-1 gap-9">
         <input type="text" placeholder='E-mail'className='input p-2' autoComplete='false' />
-        <input type="text" placeholder='Phone number' className='input p-2 focus:border-[white] active:border-[white]'  autoComplete='false'/>
+        <input type="text" placeholder='Phone number' className='input p-2'  autoComplete='false'/>
         </div>
     </div>
         <div className="checkListContainer">
@@ -43,29 +43,29 @@ const ContactPage = () => {
                 <div className="checkListContainer max-w-[80%] m-auto flex gap-9 flex-wrap justify-start items-center">
                     <div className="left flex flex-col gap-6 m-auto sm:min-w-[266px]">
                         <div className='item flex gap-4 w-full'>
-                            <input type="checkbox" name="It" placeholder='It Infrusctucture' />
+                            <input type="checkbox" className='checkbox' name="It" placeholder='It Infrusctucture' />
                             <h4 className='font-light text-[17px]'>IT Infrusctucture</h4>
                         </div>
                             <div className='item flex gap-4'>
-                        <input type="checkbox" name="It" placeholder='It Infrusctucture' />
+                        <input type="checkbox" className='checkbox' name="It" placeholder='It Infrusctucture' />
                             <h4 className='font-light text-[17px]'>Network Infrustructure</h4>
                         </div>
                         <div className='item flex gap-4'>
-                            <input type="checkbox" name="It" placeholder='It Infrusctucture' />
+                            <input type="checkbox" className='checkbox' name="It" placeholder='It Infrusctucture' />
                             <h4 className='font-light text-[17px]'>Cyber Security</h4>
                         </div>
                     </div>
                     <div className="right flex flex-col gap-6 m-auto ">
                             <div className='item flex gap-4'>
-                                <input type="checkbox" name="It" placeholder='It Infrusctucture' />
+                                <input type="checkbox" className='checkbox' name="It" placeholder='It Infrusctucture' />
                                 <h4 className='font-light text-[17px]'>Managed Security Service</h4>
                             </div>
                                 <div className='item flex gap-4'>
-                            <input type="checkbox" name="It" placeholder='It Infrusctucture' />
+                            <input type="checkbox" className='checkbox' name="It" placeholder='It Infrusctucture' />
                                 <h4 className='font-light text-[17px]'>Managed Services</h4>
                             </div>
                             <div className='item flex gap-4'>
-                                <input type="checkbox" name="It" placeholder='It Infrusctucture' />
+                                <input type="checkbox" className='checkbox' name="It" placeholder='It Infrusctucture' />
                                 <h4 className='font-light text-[17px]'>Cloud Systems and Security</h4>
                             </div>
                     </div>
