@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 import ScreenLayout from './Screens/ScreenLayout';
-
+import PartnerPage from './Screens/PartnerPage';
 
 import ITInfrustructureImg from './Assets/Pagescreens/Asset 5@4x.png'
 import NetworkScreenImg from './Assets/Pagescreens/Asset 6@4x.png'
@@ -15,7 +15,11 @@ import CloudandSecurityServices from './Assets/Pagescreens/Asset 1@4x.png'
 import ManagedServicesimg from './Assets/Pagescreens/ManagedServices.png'
 import ManagedServices from './Screens/ManagedServices';
 import ContactPage from './Screens/ContactPage';
-
+import VendorsHeroImg from './Assets/VendorPageHero.png'
+import VendorPages from './Screens/VendorPages';
+import ParterPageImg from './Assets/PartnerPageHeroimg.png'
+import AboutUs from './Screens/AboutUs';
+import AboutUsimg from './Assets/AboutUspageHeroImg.png';
 
 function App() {
 
@@ -121,6 +125,29 @@ function App() {
                   DescriptionTitle='Professional services'
           />}
           />
+          <Route path='/vendors' element={
+                  <VendorPages 
+                  HeroTitle='Vendors' 
+                  HeroImg={VendorsHeroImg} 
+                  
+          />}
+          />
+          <Route path='/partners' element={
+                  <PartnerPage 
+                  HeroTitle='Partners' 
+                  HeroImg={ParterPageImg} 
+                  
+          />}
+          />
+
+          <Route path='/aboutus' element={
+                  <AboutUs 
+                  HeroTitle='About us' 
+                  HeroImg={AboutUsimg} 
+                  
+          />}
+          />
+              {/* /aboutus */}
 
        <Route path='/ContactPage' element={<ContactPage/>}/>
 

@@ -48,7 +48,7 @@ const Slick_Partners = () => {
             <h3 className='ml-[30px] text-center font-medium text-[30px] text-[white]'>Partners</h3>
         <Slider {...settings}>
             {PartnerArr.map((value, index, array) => {
-                return <div className='Slider_Item'>
+                return <div key={index} className='Slider_Item'>
                 <div className='m-auto bg-[white] rounded-3xl object-contain w-[200px] h-[200px]' style={{backgroundImage:`url(${value})`,backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
               </div>
             })}

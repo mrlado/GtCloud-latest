@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactCardCarousel from "react-card-carousel";
 import './Vendors.css'
-
 const Vendors = () => {
 
 
@@ -13,6 +12,7 @@ const Vendors = () => {
         disable_box_shadow={true}
         spread='wide'
         >
+    
           <div className="CardStyle img one sm:h-[175px] sm:w-[175px] h-[250px] w-[250px]"></div>
           <div className="CardStyle img two sm:h-[175px] sm:w-[175px] h-[250px] w-[250px]"></div>
           <div className="CardStyle img three sm:h-[175px] sm:w-[175px] h-[250px] w-[250px]"></div>

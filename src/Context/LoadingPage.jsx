@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion as m, animate } from "framer-motion"
 import './Loading.css'
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 
 const icon = {
@@ -18,12 +20,19 @@ const icon = {
 
 
 const LoadingPage = () => {
+const [scroll,setScroll] = useState(0)
+
+
+
+
+
+
   return (
-    <div className="containerr md:w-full h-full">
+    <div className={`w-full flex place-content-center justify-center items-center overflow-hidden absolute top-[0px] z-[9999] bg-[white]  md:w-full h-full`}>
         <div className='m-auto h-[400px] w-[650px] flex justify-center items-center bg-gradient-to-r from-[#00F5FB] to-[#DC04CB] rounded-[150px] md:w-[300px] md:h-[200px]'>
     <m.svg className="Loadingitem" width="700pt" height="700pt" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" >
 
-  <m.path         variants={icon}
+  <m.path variants={icon}
         initial="hidden"
         animate="visible"
         transition={{

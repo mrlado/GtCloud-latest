@@ -16,3 +16,128 @@
 body{
     background-color: #F9F9F9;
 }
+
+.BookaCall{
+    background:'linear-gradient(to right, #00F5FB , #DC04CB)' !important; 
+    color:'white' !important; 
+}
+
+
+.vendorItem1{
+    background-image: url('./Assets/VendorsandPartners/vmware.jpg');
+}
+.vendorItem2{
+    background-image: url('./Assets/VendorsandPartners/Veeam.jpg');
+}
+.vendorItem3{
+    background-image: url('./Assets/VendorsandPartners/Trellix.jpg');
+}
+.vendorItem4{
+    background-image: url('./Assets/VendorsandPartners/Tenable.jpg');
+}
+.vendorItem5{
+    background-image: url('./Assets/VendorsandPartners/Symantec.jpg');
+}
+.vendorItem6{
+    background-image: url('./Assets/VendorsandPartners/Solarwinds.jpg');
+}
+.vendorItem7{
+    background-image: url('./Assets/VendorsandPartners/Rapid7.jpeg');
+}
+.vendorItem8{
+    background-image: url('./Assets/VendorsandPartners/Radware.jpg');
+}
+.vendorItem9{
+    background-image: url('./Assets/VendorsandPartners/Paloalto.jpg');
+}
+.vendorItem10{
+    background-image: url('./Assets/VendorsandPartners/Packet\ Light.jpg');
+
+}
+.vendorItem11{
+    background-image: url('./Assets/VendorsandPartners/A10.jpg');
+}
+.vendorItem12{
+    background-image: url('./Assets/VendorsandPartners/AppDynamics.jpg');
+}
+.vendorItem13{
+    background-image: url('./Assets/VendorsandPartners/Arista.jpg');
+}
+.vendorItem14{
+    background-image: url('./Assets/VendorsandPartners/Oracle\ Cloud.jpg');
+}
+.vendorItem15{
+    background-image: url('./Assets/VendorsandPartners/Oracle.jpg');
+}
+.vendorItem16{
+    background-image: url('./Assets/VendorsandPartners/NOZOMI.jpg');
+}
+.vendorItem17{
+    background-image: url('./Assets/VendorsandPartners/NGINX.jpg');
+}
+.vendorItem18{
+    background-image: url('./Assets/VendorsandPartners/NETSCOUT.jpg');
+}
+.vendorItem19{
+    background-image: url('./Assets/VendorsandPartners/NetApp.jpg');
+}
+.vendorItem20{
+    background-image: url('./Assets/VendorsandPartners/Microsoft\ Azure.png');
+}
+.vendorItem21{
+    background-image: url('./Assets/VendorsandPartners/Micro\ Focus.jpg');
+}
+.vendorItem22{
+    background-image: url('./Assets/VendorsandPartners/Juniper.jpg');
+}
+.vendorItem23{
+    background-image: url('./Assets/VendorsandPartners/HPE.jpg');
+}
+.vendorItem24{
+    background-image: url('./Assets/VendorsandPartners/Fudo.jpg');
+}
+.vendorItem25{
+    background-image: url('./Assets/VendorsandPartners/Fortinet.jpg');
+}
+.vendorItem26{
+    background-image: url('./Assets/VendorsandPartners/F5.jpg');
+}
+.vendorItem27{
+    background-image: url('./Assets/VendorsandPartners/Extreme.jpg');
+}
+.vendorItem28{
+    background-image: url('./Assets/VendorsandPartners/Dynatrace.jpg');
+}
+.vendorItem29{
+    background-image: url('./Assets/VendorsandPartners/DUO.png');
+}
+.vendorItem30{
+    background-image: url('./Assets/VendorsandPartners/DNS\ Sense.jpg');
+}
+.vendorItem31{
+    background-image: url('./Assets/VendorsandPartners/DerSecur.png');
+}
+.vendorItem32{
+    background-image: url('./Assets/VendorsandPartners/Delphix.jpg');
+}
+.vendorItem33{
+    background-image: url('./Assets/VendorsandPartners/Dell.jpg');
+}
+.vendorItem34{
+    background-image: url('./Assets/VendorsandPartners/Cloudflare.jpg');
+}
+.vendorItem35{
+    background-image: url('./Assets/VendorsandPartners/Cisco.jpg');
+}
+.vendorItem36{
+    background-image: url('./Assets/VendorsandPartners/Checkpoint.jpg');
+}
+.vendorItem37{
+    background-image: url('./Assets/VendorsandPartners/AWS.jpg');
+}
+.vendorItem38{
+    background-image: url('./Assets/VendorsandPartners/Aruba.jpg');
+}
+
+
+

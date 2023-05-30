@@ -49,7 +49,7 @@ useEffect(() => {
         className='flex gap-7 items-center relative md:hidden md:gap-5'
          >
             <li className='cursor-pointer text-base font-normal'><Link to='/' >Home</Link></li>
-            <li className='cursor-pointer'>Vendors</li>
+            <li className='cursor-pointer'><Link to={'./vendors'}>Vendors</Link></li>
             <li className='cursor-pointer ' ref={ProductsNavRef}><span className='flex items-center' onClick={()=>{setProductsShow(!productsShow)}}> Products {productsShow ? <IoIosArrowDown/>  : <IoIosArrowForward/>}</span>
                 <ul className={`absolute left-[140px] p-4 bg-[#F2F2F2] rounded-md ${!productsShow && 'hidden'}`}>
                     <li className='text-sx text-[#939393]'onClick={()=>{setProductsShow(false)}}>
@@ -72,8 +72,8 @@ useEffect(() => {
                         </li>
                 </ul>
             </li>
-            <li className='cursor-pointer'>Partners</li>
-            <li className='cursor-pointer'>About us</li>
+            <li className='cursor-pointer'> <Link to='/partners'>Partners</Link> </li>
+            <li className='cursor-pointer'><Link to='/aboutus'> About us</Link></li>
             <li className='cursor-pointer'><Link to='ContactPage'>Contact</Link></li>
         </m.ul>
         <div className="MobileNavigation hidden md:block">
@@ -91,7 +91,7 @@ useEffect(() => {
                 <ul className='flex  flex-col gap-7 items-center relative p-10 pt-[60%]'>
                     
                     <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/'>Home</Link></li>
-                    <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}>Vendors</li>
+                    <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to={'./vendors'}>Vendors</Link></li>
                     <li className='cursor-pointer'><span className='flex items-center' onClick={()=>{setProductsShow(!productsShow)}}> Products {productsShow ? <IoIosArrowDown/>  : <IoIosArrowForward/>}</span></li>
                     
                 {productsShow && <ul className='mr-[50px] w-[150px] flex flex-col gap-2 -mt-4'>
@@ -103,8 +103,8 @@ useEffect(() => {
                                 <li className='text-sx text-[#939393] text-left text-[10px]' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/CloudandSecurityServices'>Cloud System and Security</Link></li>
                     </ul>}
                     
-                    <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}>Partners</li>
-                    <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}>About us</li>
+                    <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/partners'>Partners</Link></li>
+                    <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='/aboutus'> About us</Link></li>
                     <li className='cursor-pointer' onClick={() => setHumburgerLogoNav(!humburgernav)}><Link to='ContactPage'>Contact</Link></li>
                     <ul>
                         <li className='flex justify-center items-center mt-32'>
